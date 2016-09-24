@@ -1,0 +1,24 @@
+
+class Subway {
+   int line;
+   void run() {
+      System.out.println(line+" line runs");
+   }
+   void setLine(int l) {
+      line=l;
+   }
+}
+Subway mySub=new Subway();
+mySub.setLine(3)
+mySub.run()
+class Hello {
+   String name;
+   Hello(String name) {
+      this.name=name;
+   }
+   void sayHello() {
+      System.out.println("Hello "+name);
+   }
+}
+Hello h=new Hello("world");
+h.getClass();
